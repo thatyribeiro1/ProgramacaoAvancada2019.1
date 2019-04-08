@@ -1,0 +1,1 @@
+Ponteiros sao utilizados para trabalhar diretamente com enderecos de memoria, dessa forma é possivel acessar posições de memoria que o usuario deseje e alterar valores contidos nela. O uso de ponteiros também deixa o programa mais rapido pois evita copias desnecessarias.
