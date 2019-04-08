@@ -1,0 +1,19 @@
+int main(){
+  int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+    printf("%d ",*(vet+i));
+  }
+}
+
+O programa imprime os valores contidos no vetor vet.
+
+int main(){
+  int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+    printf("%X ",vet+i);
+  }
+}
+
+O programa imprime o endereco das posicoes do vetor vet, em base hexadecimal.
