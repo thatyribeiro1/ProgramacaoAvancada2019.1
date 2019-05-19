@@ -1,0 +1,4 @@
+dim 20 20 20
+putsphere 10 10 10 5 1 0.5 0.8 1
+cutsphere 2 2 2 1
+
