@@ -1,6 +1,14 @@
 #include "putbox.h"
 
-
+/*!
+      Este é o construtor da classe PutBox.
+      \param x0 posição inicial na dimensao x.
+      \param x1 posição final na dimensao x.
+      \param y0 posição inicial na dimensao y.
+      \param y1 posição final na dimensao y.
+      \param z0 posição inicial na dimensao z.
+      \param z1 posição final na dimensao z.
+    */
 PutBox::PutBox(int _x0, int _x1, int _y0, int _y1, int _z0, int _z1, float _r, float _g, float _b, float _a)
 {
     this->x0 = _x0;
@@ -20,6 +28,15 @@ PutBox::~PutBox()
 
 }
 
+/*!
+      Este método desenha um cubo no intervalo definido pelo usuário.
+      \param x0 posição inicial na dimensao x.
+      \param x1 posição final na dimensao x.
+      \param y0 posição inicial na dimensao y.
+      \param y1 posição final na dimensao y.
+      \param z0 posição inicial na dimensao z.
+      \param z1 posição final na dimensao z.
+    */
 void PutBox::draw(Sculptor &t)
 {
     //draw a cube with

@@ -1,5 +1,13 @@
 #include "cutsphere.h"
 
+/*!
+      Este é o construtor da classe CutSphere.
+      \param xcenter centróide na dimensão x.
+      \param ycenter centróide na dimensão y.
+      \param zcenter centróide na dimensão z.
+      \param radius raio da esfera
+    */
+
 
 CutSphere::CutSphere(int _xc, int _yc, int _zc, int _radius)
 {
@@ -13,6 +21,14 @@ CutSphere::~CutSphere()
 {
 
 }
+
+/*!
+      Este método recorta uma esfera de raio determinado pelo usuário e centrada nas coordenadas x y z determinadas pelo usuário.
+      \param xcenter centróide na dimensão x.
+      \param ycenter centróide na dimensão y.
+      \param zcenter centróide na dimensão z.
+      \param radius raio da esfera
+    */
 
 void CutSphere::draw(Sculptor &t)
 {

@@ -49,9 +49,9 @@ int main()
     Sculptor* sculpt = NULL;
 
     ifstream myfile;
-    //myfile.open ("C:/Users/thaty/Documents/Escultor3D_pt2/Escultura_cubos.txt");
-    //myfile.open ("C:/Users/thaty/Documents/Escultor3D_pt2/Escultura_esferas.txt");
-    myfile.open ("C:/Users/thaty/Documents/Escultor3D_pt2/Escultura_ellipsoid.txt");
+    //myfile.open ("C:/Users/thaty/Desktop/ProgramacaoAvancada2019.1/Escultor3D_pt2/Escultura_cubos.txt");
+    //myfile.open ("C:/Users/thaty/Desktop/ProgramacaoAvancada2019.1/Escultor3D_pt2/Escultura_esferas.txt");
+    myfile.open ("C:/Users/thaty/Desktop/ProgramacaoAvancada2019.1/Escultor3D_pt2/Escultura_ellipsoid.txt");
 
     if(myfile.is_open()){
         cout << "arquivo foi aberto\n";
@@ -196,9 +196,9 @@ int main()
             fgs[i]->draw(*sculpt);
         }
 
-        //sculpt->writeOFF("C:/Users/thaty/Documents/Escultor3D_pt2/OFF_files/Esculturas_cubos.off");
-        //sculpt->writeOFF("C:/Users/thaty/Documents/Escultor3D_pt2/OFF_files/Esculturas_esferas.off");
-        sculpt->writeOFF("C:/Users/thaty/Documents/Escultor3D_pt2/OFF_files/Esculturas_ellipsoid.off");
+        //sculpt->writeOFF("C:/Users/thaty/Desktop/ProgramacaoAvancada2019.1/Escultor3D_pt2/OFF_files/Esculturas_cubos.off");
+        //sculpt->writeOFF("C:/Users/thaty/Desktop/ProgramacaoAvancada2019.1/Escultor3D_pt2/OFF_files/Esculturas_esferas.off");
+        sculpt->writeOFF("C:/Users/thaty/Desktop/ProgramacaoAvancada2019.1/Escultor3D_pt2/OFF_files/Esculturas_ellipsoid.off");
         delete sculpt;
     }
 

@@ -1,5 +1,14 @@
 #include "cutellipsoid.h"
 
+/*!
+      Este é o construtor da classe CutEllipsoid.
+      \param xcenter centróide na dimensão x.
+      \param ycenter centróide na dimensão y.
+      \param zcenter centróide na dimensão z.
+      \param rx raio do elipsóide na dimensão x.
+      \param ry raio do elipsóide na dimensão y.
+      \param rz raio do elipsóide na dimensão z.
+    */
 
 CutEllipsoid::CutEllipsoid(int _xc, int _yc, int _zc, int _rx, int _ry, int _rz)
 {
@@ -15,6 +24,16 @@ CutEllipsoid::~CutEllipsoid()
 {
 
 }
+
+/*!
+      Este método recorta um elipsóide de raio determinado pelo usuário e centrado nas coordenadas x y z determinadas pelo usuário.
+      \param xcenter centróide na dimensão x.
+      \param ycenter centróide na dimensão y.
+      \param zcenter centróide na dimensão z.
+      \param rx raio do elipsóide na dimensão x.
+      \param ry raio do elipsóide na dimensão y.
+      \param rz raio do elipsóide na dimensão z.
+    */
 
 void CutEllipsoid::draw(Sculptor &t)
 {
