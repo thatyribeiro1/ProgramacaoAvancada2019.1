@@ -1,4 +1,4 @@
-# MySculptorGG
+# EscultorPaint
 
 Ferramenta para esculpir figuras 3D 
 
